@@ -6,7 +6,8 @@ public class FibIndex {
 		
 		int index = (int) (Math.random() * 40 + 1);
 		
-		
+		System.out.printf("The fibonacci number located at index %d is: ", index);
+		System.out.println(Fibonacci.series(index - 1));
 
 	}
 
